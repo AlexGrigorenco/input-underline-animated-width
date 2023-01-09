@@ -1,0 +1,41 @@
+:root{
+  --color: rgb(82, 227, 82);
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  outline:0;
+  border:0;
+  background:rgb(56, 54, 54);
+  font-family:sans-serif;
+}
+.container{
+  width:30%;
+  margin:100px auto;
+  text-align:center;
+  overflow:hidden;
+}
+input{
+  text-align:center;
+  width:100%;
+  padding:10px;
+  font-size:20px;
+  color:var(--color);
+  text-overflow:ellipsis;
+}
+input::placeholder{
+  font-size:14px;
+  letter-spacing:3px;
+  color:var(--color);
+  opacity:0.5;
+}
+.underline{
+  transition:0.5s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  margin:0 auto;
+  display:block;
+  height:1px;
+ background:var(--color);
+  width:100%;
+}
